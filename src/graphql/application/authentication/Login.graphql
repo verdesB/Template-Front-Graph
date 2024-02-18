@@ -1,0 +1,3 @@
+query login($email: String!, $password: String!) {
+    login(dto: { email: $email, password: $password })
+}

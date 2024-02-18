@@ -1,0 +1,3 @@
+query validateToken($token: String!) {
+    validateToken(dto: { token: $token })
+}
